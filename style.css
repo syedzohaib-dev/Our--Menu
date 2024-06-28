@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.heading-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    width: 400px;
+    height: 60px;
+    text-align: center;
+}
+
+.heading p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-bottom: 3px solid goldenrod;
+}
+
+.btnGroup {
+    width: 450px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnGroup button {
+    width: 90px;
+    height: 35px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    background-color: #fff;
+
+}
