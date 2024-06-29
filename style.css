@@ -20,6 +20,33 @@
     flex-direction: column;
 }
 
+.searchContainer {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    border: 1px solid goldenrod;
+
+}
+
+.searchContainer input {
+    width: 200px;
+    height: 28px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+
+.searchContainer button {
+    width: 50px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: goldenrod;
+}
+
+
 .heading {
     width: 400px;
     height: 60px;
@@ -50,5 +77,120 @@
     color: goldenrod;
     border: 3px solid goldenrod;
     background-color: #fff;
+    cursor: pointer;
 
+}
+
+.button-value:hover {
+    background-color: goldenrod;
+    color: white;
+
+}
+
+.card-container {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* flex-direction: column; */
+
+
+}
+
+.card-container-2 {
+    width: 70%;
+    /* height: 1200px; */
+    /* border: 1px solid black; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: grid;
+    height: 500px;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+/* card css */
+
+.cardBox {
+    width: 510px;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cardImg {
+    height: 150px;
+    width: 200px;
+    border: 5px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.cardImg img {
+    height: 145px;
+    width: 195px;
+    border-radius: 10px;
+}
+
+.cardDescription {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+
+}
+
+.cardHeading {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid goldenrod;
+    margin: 5px;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dollar {
+    font-size: 1rem;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.cardPara {
+    width: 300px;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
 }

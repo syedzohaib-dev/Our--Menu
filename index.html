@@ -12,18 +12,109 @@
 
     <div class="container">
         <div class="heading-container">
+            <div class="searchContainer"><input type="text" placeholder="Search"><button type="button">Search</button>
+            </div>
             <div class="heading">
                 <p>Our Menu</p>
             </div>
             <div class="btnGroup">
-                <button type="button">All</button>
-                <button type="button">Breakfast</button>
-                <button type="button">Lunch</button>
-                <button type="button">Shakes</button>
+                <button type="button" class="button-value" onclick="filterProduct('All')">All</button>
+                <button type="button" class="button-value" onclick="filterProduct('Breakfast')">Breakfast</button>
+                <button type="button" class="button-value" onclick="filterProduct('Lunch')">Lunch</button>
+                <button type="button" class="button-value" onclick="filterProduct('Shakes')">Shakes</button>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-container-2" id="products">
+                <!-- <div class="cardBox">
+                    <div class="cardImg"><img
+                            src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg"
+                            alt=""></div>
+                    <div class="cardDescription">
+                        <div class="cardHeading">
+                            <p class="title">Tikka</p>
+                            <p class="dollar">$ 15.99</p>
+                        </div>
+                        <div class="cardPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iste natus
+                            commodi.</div>
+                    </div>
+                </div>
+
+                <div class="cardBox">
+                    <div class="cardImg"><img
+                            src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chanwalrus-958545.jpg&fm=jpg"
+                            alt=""></div>
+                    <div class="cardDescription">
+                        <div class="cardHeading">
+                            <p class="title">Combo</p>
+                            <p class="dollar">$ 15.99</p>
+                        </div>
+                        <div class="cardPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iste natus
+                            commodi.</div>
+                    </div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardImg"><img
+                            src="https://img.freepik.com/free-photo/side-view-chicken-roll-grilled-chicken-fillet-with-lettuce-greens-mayo-wrapped-tortilla-club-sandwich-table_141793-4848.jpg?size=626&ext=jpg&ga=GA1.1.1788614524.1719446400&semt=sph"
+                            alt=""></div>
+                    <div class="cardDescription">
+                        <div class="cardHeading">
+                            <p class="title">Roll</p>
+                            <p class="dollar">$ 15.99</p>
+                        </div>
+                        <div class="cardPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iste natus
+                            commodi.</div>
+                    </div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardImg"><img
+                            src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg"
+                            alt=""></div>
+                    <div class="cardDescription">
+                        <div class="cardHeading">
+                            <p class="title">Tikka</p>
+                            <p class="dollar">$ 15.99</p>
+                        </div>
+                        <div class="cardPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iste natus
+                            commodi.</div>
+                    </div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardImg"><img
+                            src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg"
+                            alt=""></div>
+                    <div class="cardDescription">
+                        <div class="cardHeading">
+                            <p class="title">Tikka</p>
+                            <p class="dollar">$ 15.99</p>
+                        </div>
+                        <div class="cardPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iste natus
+                            commodi.</div>
+                    </div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardImg"><img
+                            src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg"
+                            alt=""></div>
+                    <div class="cardDescription">
+                        <div class="cardHeading">
+                            <p class="title">Tikka</p>
+                            <p class="dollar">$ 15.99</p>
+                        </div>
+                        <div class="cardPara">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Earum iste natus
+                            commodi.</div>
+                    </div>
+                </div> -->
+
+
+
+
+
             </div>
         </div>
     </div>
-
+    <script src="./app.js"></script>
 </body>
 
 </html>
